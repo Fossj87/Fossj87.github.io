@@ -1,100 +1,19 @@
-* {
-    box-sizing: border-box;
+.navbar-brand {
+    border-right : 1px dashed;
+    padding-right: 15px;
 }
 
-body {
-   margin: 0px;
-   padding: 0px;
-}
-
-#wrapper {
-    width: 100%;
-    height: 100%;
-    background-image: url("../images/bg_mountains.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+.bg_mountains {
+    background: url(../images/bg_mountains.jpg) no-repeat center;
     background-size: cover;
 }
 
-
-#header {
-    background-color: #336b87;
-    width: 100%;
-    height: 50px;
-    box-shadow: 2px 2px 2px #888888;
-}
-    #header span {
-        color: #ffffff;
-        font-size: 32px;
-        line-height: 50px;
-        margin-left: 15px;
-        vertical-align: middle;
-        font-family: 'Comfortaa', cursive;
-    }
-
-#content {
-    text-align:center;
-    display: inline-block;
-    width: 100%;
+.full-width{
+    width : 100%;
 }
 
-
-#footer {
-    background-color: #2A3132;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    height: 35px;
-    text-align: center;
-}
-    #footer a {
-        color: #ffffff;
-        font-size: 14px;
-        line-height: 35px;
-        vertical-align: middle;
-        text-decoration: none;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-left: 25px;
-        margin-right: 25px;
-        letter-spacing: 1.5px;
-    }
-        #footer a:hover {
-            font-weight: bold;
-        }
-
-
-.section {
-    width: 25%;
-    height: 400px;
-    background-color: #ffffff;
-    margin-top: 5%;
-    margin-left: 6.25%;
-    opacity: .50;
-    float: left;
-}
-    .section:hover {
-        opacity: 1;
-        border: 1px solid #336b87;
-        box-shadow: 2px 2px 2px #888888;
-    }
-
-.title {
-    font-size: 24px;
-    line-height: 25px;
-    margin-left: 15px;
-    vertical-align: middle;
-    font-family: 'Comfortaa', cursive;
-}
-
-.subtitle {
-    font-size: 16px;
-    line-height: 16px;
-    vertical-align: middle;
-    font-family: 'Open Sans', sans-serif;
-}
-
-@media only screen and (max-width: 500px) {
-    #wrapper {
-        background-image: none;
-    }
-}
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+  }
